@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: center;
     background-image: url("images/bg-header.jpg");
-    z-index: 1;
+    z-index: 2;
 }
 hgroup {
     text-indent: -9999px;
@@ -57,16 +57,21 @@ nav ul a {
 }
 #main {
     display: inline-block;
-}
-.grid_1 {
-    width: 621px;
-    height: 535px;
-    position: relative;
-    top: 0px;
     background-image: url("images/bg-triangle.png");
     background-repeat: no-repeat;
     background-position: 0px 0px;
+}
+.grid_1 {
+    width: 720px;
+    height: 535px;
+    position: relative;
+    top: 0px;
+    background-image: url("images/triangles.png");
+    background-repeat: no-repeat;
+    background-position: 123px 142px;
+    
     float: left;
+    
 }
 .grid_1 h1 {
     margin: 0px;
@@ -83,9 +88,10 @@ nav ul a {
     margin-top: 140px;
 }
 .grid_2 {
-    width: 267px;
+    width: 240px;
     float: right;
     margin-top: 202px;
+    
 }
 footer {
     width: 100%;
