@@ -59,6 +59,9 @@ nav ul a {
     text-decoration: none;
     color: #B5C1AD;
 }
+nav ul a:hover {
+    color: #ffffff;;
+}
 #main {
     display: inline-block;
     height: 567px;
@@ -95,6 +98,9 @@ nav ul a {
 .grid_1 h1 {
     margin: 0px;
 }
+.grid_1 h1 a:hover {
+    color: #ffffff;
+}
 .grid_1 a {
     position: relative;
     top: 140px;
@@ -113,6 +119,12 @@ nav ul a {
     padding-left: 10px;
     padding-right: 10px;
 }
+.grid_2 a {
+    text-decoration: none;
+}
+.grid_2 a:hover {
+    color: #ffffff;
+}
 .more_articles {
     display: inline-block;
     width: 980px;
@@ -121,13 +133,16 @@ nav ul a {
     padding-left: 10px;
     padding-right: 10px;
 }
-.more_articles h2 {
+.more_articles h2 a{
     margin-top: 0px;
     padding-left: 10px;
     font-family: 'Quicksand', sans-serif;
     font-weight: normal;
     color: #B5C1AD;
-    
+    text-decoration: none;
+}
+.more_articles a:hover {
+    color: #ffffff;
 }
 .grid_3 {
     width: 220px;
@@ -149,6 +164,11 @@ nav ul a {
 .grid_3 p:last-child {
     border-bottom: none;
 }
+.grid_3 a {
+    color: #B5C1AD;
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 footer {
     position: absolute;
     display: flex;
@@ -166,6 +186,7 @@ footer a {
     color: #807c72;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 75%;
+    text-decoration: none;
 }
 footer p {
     float: right;
